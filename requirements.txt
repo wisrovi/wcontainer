@@ -1,3 +1,9 @@
 loguru
 tomli
 setuptools
+tomli_w
+
+loguru
+docker
+psutil
+gputil

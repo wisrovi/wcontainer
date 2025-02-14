@@ -10,6 +10,10 @@ from setuptools import setup, find_packages
 with open("pyproject.toml", "rb") as file:
     config_project = tomllib.load(file)
 
+
+print(config_project)
+
+
 # leer el archivo requerimientos.txt en una lista
 with open("requirements.txt", "r") as file:
     requirements = file.readlines()
@@ -33,7 +37,7 @@ setup(
         "Topic :: Software Development :: Build Tools",
         "Intended Audience :: Developers",
     ],
-    description=config_project["description"],
+    description=config_project["project"]["description"],
     long_description_content_type="text/markdown",
     long_description=long_description,
     url=f"https://github.com/wisrovi/{config_project['project']['name']}",

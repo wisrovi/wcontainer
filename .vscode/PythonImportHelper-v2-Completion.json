@@ -1,11 +1,20 @@
 [
     {
-        "label": "os",
+        "label": "docker",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
+        "importPath": "docker",
+        "description": "docker",
+        "detail": "docker",
+        "documentation": {}
+    },
+    {
+        "label": "loguru",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "loguru",
+        "description": "loguru",
+        "detail": "loguru",
         "documentation": {}
     },
     {
@@ -15,6 +24,165 @@
         "importPath": "subprocess",
         "description": "subprocess",
         "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "psutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "psutil",
+        "description": "psutil",
+        "detail": "psutil",
+        "documentation": {}
+    },
+    {
+        "label": "GPUtil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "GPUtil",
+        "description": "GPUtil",
+        "detail": "GPUtil",
+        "documentation": {}
+    },
+    {
+        "label": "Wcontainer",
+        "importPath": "wcontainer",
+        "description": "wcontainer",
+        "isExtraImport": true,
+        "detail": "wcontainer",
+        "documentation": {}
+    },
+    {
+        "label": "Wcontainer",
+        "importPath": "wcontainer",
+        "description": "wcontainer",
+        "isExtraImport": true,
+        "detail": "wcontainer",
+        "documentation": {}
+    },
+    {
+        "label": "Wcontainer",
+        "importPath": "wcontainer",
+        "description": "wcontainer",
+        "isExtraImport": true,
+        "detail": "wcontainer",
+        "documentation": {}
+    },
+    {
+        "label": "Wcontainer",
+        "importPath": "wcontainer",
+        "description": "wcontainer",
+        "isExtraImport": true,
+        "detail": "wcontainer",
+        "documentation": {}
+    },
+    {
+        "label": "Wcontainer",
+        "importPath": "wcontainer",
+        "description": "wcontainer",
+        "isExtraImport": true,
+        "detail": "wcontainer",
+        "documentation": {}
+    },
+    {
+        "label": "Wcontainer",
+        "importPath": "wcontainer",
+        "description": "wcontainer",
+        "isExtraImport": true,
+        "detail": "wcontainer",
+        "documentation": {}
+    },
+    {
+        "label": "Wcontainer",
+        "importPath": "wcontainer",
+        "description": "wcontainer",
+        "isExtraImport": true,
+        "detail": "wcontainer",
+        "documentation": {}
+    },
+    {
+        "label": "Wcontainer",
+        "importPath": "wcontainer",
+        "description": "wcontainer",
+        "isExtraImport": true,
+        "detail": "wcontainer",
+        "documentation": {}
+    },
+    {
+        "label": "Wcontainer",
+        "importPath": "wcontainer",
+        "description": "wcontainer",
+        "isExtraImport": true,
+        "detail": "wcontainer",
+        "documentation": {}
+    },
+    {
+        "label": "Wcontainer",
+        "importPath": "wcontainer",
+        "description": "wcontainer",
+        "isExtraImport": true,
+        "detail": "wcontainer",
+        "documentation": {}
+    },
+    {
+        "label": "Wcontainer",
+        "importPath": "wcontainer",
+        "description": "wcontainer",
+        "isExtraImport": true,
+        "detail": "wcontainer",
+        "documentation": {}
+    },
+    {
+        "label": "Wcontainer",
+        "importPath": "wcontainer",
+        "description": "wcontainer",
+        "isExtraImport": true,
+        "detail": "wcontainer",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "tomli_w",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tomli_w",
+        "description": "tomli_w",
+        "detail": "tomli_w",
         "documentation": {}
     },
     {
@@ -42,12 +210,165 @@
         "documentation": {}
     },
     {
-        "label": "Basemodel",
+        "label": "Wcontainer",
         "kind": 6,
-        "importPath": "module.submodule.controller",
-        "description": "module.submodule.controller",
-        "peekOfCode": "class Basemodel:\n    def __init__(self):\n        self.name = \"Basemodel\"\n        self.type = \"Base\"",
-        "detail": "module.submodule.controller",
+        "importPath": "build.lib.wcontainer.wcontainer.controller",
+        "description": "build.lib.wcontainer.wcontainer.controller",
+        "peekOfCode": "class Wcontainer:\n    \"\"\"Advanced Docker container manager with real-time resource allocation, vulnerability scanning, auto-scaling, and monitoring.\"\"\"\n    def __init__(self, verbose: bool = True):\n        \"\"\"\n        Initializes the Docker container manager.\n        Args:\n            verbose (bool, optional): Enables detailed logging if True. Defaults to True.\n        \"\"\"\n        self.verbose = verbose\n        self.logger = loguru.logger",
+        "detail": "build.lib.wcontainer.wcontainer.controller",
+        "documentation": {}
+    },
+    {
+        "label": "wc",
+        "kind": 5,
+        "importPath": "examples.1-basicos.1_list_container",
+        "description": "examples.1-basicos.1_list_container",
+        "peekOfCode": "wc = Wcontainer(verbose=True)\n# List only running containers\nprint(wc.list_containers())\n# List all containers (including stopped ones)\nprint(wc.list_containers(all_containers=True))",
+        "detail": "examples.1-basicos.1_list_container",
+        "documentation": {}
+    },
+    {
+        "label": "wc",
+        "kind": 5,
+        "importPath": "examples.1-basicos.2_start_new_container",
+        "description": "examples.1-basicos.2_start_new_container",
+        "peekOfCode": "wc = Wcontainer(verbose=True)\n# Start an Nginx container exposing port 8080\nprint(wc.start_container(\"nginx\", \"my_nginx\", ports={\"80/tcp\": 8080}))",
+        "detail": "examples.1-basicos.2_start_new_container",
+        "documentation": {}
+    },
+    {
+        "label": "wc",
+        "kind": 5,
+        "importPath": "examples.1-basicos.3_new_resources",
+        "description": "examples.1-basicos.3_new_resources",
+        "peekOfCode": "wc = Wcontainer(verbose=True)\n# Limit a running container to 2 CPU cores and 1GB RAM\nprint(wc.adjust_container_resources(\"my_nginx\", cpu_limit=2.0, memory_limit=\"1g\"))",
+        "detail": "examples.1-basicos.3_new_resources",
+        "documentation": {}
+    },
+    {
+        "label": "wc",
+        "kind": 5,
+        "importPath": "examples.2-intermedios.1_buscar_vulnerabilidades",
+        "description": "examples.2-intermedios.1_buscar_vulnerabilidades",
+        "peekOfCode": "wc = Wcontainer(verbose=True)\n# Scan the latest Nginx image for security vulnerabilities\nprint(wc.scan_image_with_trivy(\"nginx\"))",
+        "detail": "examples.2-intermedios.1_buscar_vulnerabilidades",
+        "documentation": {}
+    },
+    {
+        "label": "wc",
+        "kind": 5,
+        "importPath": "examples.2-intermedios.2_read_metrics",
+        "description": "examples.2-intermedios.2_read_metrics",
+        "peekOfCode": "wc = Wcontainer(verbose=True)\n# Get system-wide CPU, RAM, and GPU usage\nprint(wc.get_resource_metrics())",
+        "detail": "examples.2-intermedios.2_read_metrics",
+        "documentation": {}
+    },
+    {
+        "label": "wc",
+        "kind": 5,
+        "importPath": "examples.2-intermedios.3_informe de errores",
+        "description": "examples.2-intermedios.3_informe de errores",
+        "peekOfCode": "wc = Wcontainer(verbose=True)\n# Analyze logs and generate a JSON error report for the container\nprint(wc.generate_error_report(\"my_nginx\", output_file=\"nginx_errors.json\"))",
+        "detail": "examples.2-intermedios.3_informe de errores",
+        "documentation": {}
+    },
+    {
+        "label": "wc",
+        "kind": 5,
+        "importPath": "examples.3-avanzados.1_ajuste_dinamico_recursos",
+        "description": "examples.3-avanzados.1_ajuste_dinamico_recursos",
+        "peekOfCode": "wc = Wcontainer(verbose=True)\n# Dynamically adjust CPU and RAM allocation every 10 seconds\nfor _ in range(5):\n    print(\n        wc.adjust_container_resources(\n            \"my_nginx\", cpu_limit=random.uniform(1.0, 4.0), memory_limit=\"512m\"\n        )\n    )\n    time.sleep(10)\n# 🔹 Explicación: Cada 10 segundos, el script cambia la cantidad de CPU y RAM asignada al contenedor.",
+        "detail": "examples.3-avanzados.1_ajuste_dinamico_recursos",
+        "documentation": {}
+    },
+    {
+        "label": "wc",
+        "kind": 5,
+        "importPath": "examples.3-avanzados.2_escalar_contenedores_segun_uso_recursos",
+        "description": "examples.3-avanzados.2_escalar_contenedores_segun_uso_recursos",
+        "peekOfCode": "wc = Wcontainer(verbose=True)\nresource_metrics = wc.get_resource_metrics()\n# If CPU usage is higher than 80%, start another instance\nif float(resource_metrics[\"cpu_usage\"].strip(\"%\")) > 80:\n    print(wc.start_container(\"nginx\", \"nginx_replica\"))\n# 🔹 Explicación: Si el uso de CPU del sistema supera el 80%, lanza una nueva instancia del contenedor para distribuir la carga.",
+        "detail": "examples.3-avanzados.2_escalar_contenedores_segun_uso_recursos",
+        "documentation": {}
+    },
+    {
+        "label": "resource_metrics",
+        "kind": 5,
+        "importPath": "examples.3-avanzados.2_escalar_contenedores_segun_uso_recursos",
+        "description": "examples.3-avanzados.2_escalar_contenedores_segun_uso_recursos",
+        "peekOfCode": "resource_metrics = wc.get_resource_metrics()\n# If CPU usage is higher than 80%, start another instance\nif float(resource_metrics[\"cpu_usage\"].strip(\"%\")) > 80:\n    print(wc.start_container(\"nginx\", \"nginx_replica\"))\n# 🔹 Explicación: Si el uso de CPU del sistema supera el 80%, lanza una nueva instancia del contenedor para distribuir la carga.",
+        "detail": "examples.3-avanzados.2_escalar_contenedores_segun_uso_recursos",
+        "documentation": {}
+    },
+    {
+        "label": "wc",
+        "kind": 5,
+        "importPath": "examples.3-avanzados.3_escalar_antes_desplegar",
+        "description": "examples.3-avanzados.3_escalar_antes_desplegar",
+        "peekOfCode": "wc = Wcontainer(verbose=True)\n# Run a security check before deployment\nscan_result = wc.scan_image_with_trivy(\"my_application_image\")\n# If vulnerabilities are found, abort deployment\nif \"error\" not in scan_result and any(scan_result.get(\"Vulnerabilities\", [])):\n    print(\"Deployment aborted: vulnerabilities detected.\")\nelse:\n    print(\"No critical vulnerabilities found, proceeding with deployment...\")\n    print(\n        wc.start_container(",
+        "detail": "examples.3-avanzados.3_escalar_antes_desplegar",
+        "documentation": {}
+    },
+    {
+        "label": "scan_result",
+        "kind": 5,
+        "importPath": "examples.3-avanzados.3_escalar_antes_desplegar",
+        "description": "examples.3-avanzados.3_escalar_antes_desplegar",
+        "peekOfCode": "scan_result = wc.scan_image_with_trivy(\"my_application_image\")\n# If vulnerabilities are found, abort deployment\nif \"error\" not in scan_result and any(scan_result.get(\"Vulnerabilities\", [])):\n    print(\"Deployment aborted: vulnerabilities detected.\")\nelse:\n    print(\"No critical vulnerabilities found, proceeding with deployment...\")\n    print(\n        wc.start_container(\n            \"my_application_image\", \"production_app\", ports={\"5000/tcp\": 5000}\n        )",
+        "detail": "examples.3-avanzados.3_escalar_antes_desplegar",
+        "documentation": {}
+    },
+    {
+        "label": "wc",
+        "kind": 5,
+        "importPath": "examples.3-avanzados.4_autonamizar_generacion_informe_errores",
+        "description": "examples.3-avanzados.4_autonamizar_generacion_informe_errores",
+        "peekOfCode": "wc = Wcontainer(verbose=True)\n# Check logs of multiple containers and generate error reports\ncontainers = [\"my_nginx\", \"backend_service\", \"database\"]\nfor container in containers:\n    print(wc.generate_error_report(container, output_file=f\"{container}_errors.json\"))\n# 🔹 Explicación: Revisa los logs de varios contenedores y genera informes de errores individuales en formato JSON.",
+        "detail": "examples.3-avanzados.4_autonamizar_generacion_informe_errores",
+        "documentation": {}
+    },
+    {
+        "label": "containers",
+        "kind": 5,
+        "importPath": "examples.3-avanzados.4_autonamizar_generacion_informe_errores",
+        "description": "examples.3-avanzados.4_autonamizar_generacion_informe_errores",
+        "peekOfCode": "containers = [\"my_nginx\", \"backend_service\", \"database\"]\nfor container in containers:\n    print(wc.generate_error_report(container, output_file=f\"{container}_errors.json\"))\n# 🔹 Explicación: Revisa los logs de varios contenedores y genera informes de errores individuales en formato JSON.",
+        "detail": "examples.3-avanzados.4_autonamizar_generacion_informe_errores",
+        "documentation": {}
+    },
+    {
+        "label": "wc",
+        "kind": 5,
+        "importPath": "examples.3-avanzados.5_usar_ia_detectar_fallos_para_reinicio_automatico",
+        "description": "examples.3-avanzados.5_usar_ia_detectar_fallos_para_reinicio_automatico",
+        "peekOfCode": "wc = Wcontainer(verbose=True)\ncontainers = [\"my_nginx\", \"backend_service\"]\nfor container in containers:\n    failure_prediction = wc.predict_container_failure(container)\n    print(failure_prediction)\n    if \"ALERT\" in failure_prediction:\n        print(f\"Restarting {container} due to high failure probability...\")\n        print(wc.start_container(\"nginx\", f\"{container}_restarted\"))\n# 🔹 Explicación: Usa la predicción de fallos con IA y reinicia automáticamente los contenedores con alta probabilidad de error.",
+        "detail": "examples.3-avanzados.5_usar_ia_detectar_fallos_para_reinicio_automatico",
+        "documentation": {}
+    },
+    {
+        "label": "containers",
+        "kind": 5,
+        "importPath": "examples.3-avanzados.5_usar_ia_detectar_fallos_para_reinicio_automatico",
+        "description": "examples.3-avanzados.5_usar_ia_detectar_fallos_para_reinicio_automatico",
+        "peekOfCode": "containers = [\"my_nginx\", \"backend_service\"]\nfor container in containers:\n    failure_prediction = wc.predict_container_failure(container)\n    print(failure_prediction)\n    if \"ALERT\" in failure_prediction:\n        print(f\"Restarting {container} due to high failure probability...\")\n        print(wc.start_container(\"nginx\", f\"{container}_restarted\"))\n# 🔹 Explicación: Usa la predicción de fallos con IA y reinicia automáticamente los contenedores con alta probabilidad de error.",
+        "detail": "examples.3-avanzados.5_usar_ia_detectar_fallos_para_reinicio_automatico",
+        "documentation": {}
+    },
+    {
+        "label": "wc",
+        "kind": 5,
+        "importPath": "examples.4-monitoreo_RT.monitoreo_tiempo_real",
+        "description": "examples.4-monitoreo_RT.monitoreo_tiempo_real",
+        "peekOfCode": "wc = Wcontainer(verbose=True)\nwhile True:\n    print(\"\\n📊 Checking system resources...\")\n    print(wc.get_resource_metrics())\n    print(\"\\n🔍 Scanning image for vulnerabilities...\")\n    print(wc.scan_image_with_trivy(\"nginx\"))\n    print(\"\\n📂 Checking error logs for running containers...\")\n    containers = [\"my_nginx\", \"backend_service\"]\n    for container in containers:\n        print(wc.generate_error_report(container))",
+        "detail": "examples.4-monitoreo_RT.monitoreo_tiempo_real",
+        "documentation": {}
+    },
+    {
+        "label": "Wcontainer",
+        "kind": 6,
+        "importPath": "wcontainer.wcontainer.controller",
+        "description": "wcontainer.wcontainer.controller",
+        "peekOfCode": "class Wcontainer:\n    \"\"\"Advanced Docker container manager with real-time resource allocation, vulnerability scanning, auto-scaling, and monitoring.\"\"\"\n    def __init__(self, verbose: bool = True):\n        \"\"\"\n        Initializes the Docker container manager.\n        Args:\n            verbose (bool, optional): Enables detailed logging if True. Defaults to True.\n        \"\"\"\n        self.verbose = verbose\n        self.logger = loguru.logger",
+        "detail": "wcontainer.wcontainer.controller",
         "documentation": {}
     },
     {
@@ -136,43 +457,7 @@
         "kind": 5,
         "importPath": "publish_version",
         "description": "publish_version",
-        "peekOfCode": "actual_version = config_project[\"project\"][\"version\"]\n# incrementar la version\nversion = actual_version.split(\".\")\n# hay 3 partes en la version: major, minor, patch\n# cada parte se incrementa en 1, cuando la parte anterior llega a 9, se incrementa la siguiente parte en 1\n# si la parte anterior es 0, se incrementa en 1\nmajor = int(version[0])\nminor = int(version[1])\npatch = int(version[2])\nif patch < 9:",
-        "detail": "publish_version",
-        "documentation": {}
-    },
-    {
-        "label": "version",
-        "kind": 5,
-        "importPath": "publish_version",
-        "description": "publish_version",
-        "peekOfCode": "version = actual_version.split(\".\")\n# hay 3 partes en la version: major, minor, patch\n# cada parte se incrementa en 1, cuando la parte anterior llega a 9, se incrementa la siguiente parte en 1\n# si la parte anterior es 0, se incrementa en 1\nmajor = int(version[0])\nminor = int(version[1])\npatch = int(version[2])\nif patch < 9:\n    patch += 1\nelse:",
-        "detail": "publish_version",
-        "documentation": {}
-    },
-    {
-        "label": "major",
-        "kind": 5,
-        "importPath": "publish_version",
-        "description": "publish_version",
-        "peekOfCode": "major = int(version[0])\nminor = int(version[1])\npatch = int(version[2])\nif patch < 9:\n    patch += 1\nelse:\n    patch = 0\n    if minor < 9:\n        minor += 1\n    else:",
-        "detail": "publish_version",
-        "documentation": {}
-    },
-    {
-        "label": "minor",
-        "kind": 5,
-        "importPath": "publish_version",
-        "description": "publish_version",
-        "peekOfCode": "minor = int(version[1])\npatch = int(version[2])\nif patch < 9:\n    patch += 1\nelse:\n    patch = 0\n    if minor < 9:\n        minor += 1\n    else:\n        minor = 0",
-        "detail": "publish_version",
-        "documentation": {}
-    },
-    {
-        "label": "patch",
-        "kind": 5,
-        "importPath": "publish_version",
-        "description": "publish_version",
-        "peekOfCode": "patch = int(version[2])\nif patch < 9:\n    patch += 1\nelse:\n    patch = 0\n    if minor < 9:\n        minor += 1\n    else:\n        minor = 0\n        major += 1",
+        "peekOfCode": "actual_version = config_project[\"project\"][\"version\"]\n# incrementar la version\nnew_version = version = actual_version.split(\".\")\n# hay 3 partes en la version: major, minor, patch\n# cada parte se incrementa en 1, cuando la parte anterior llega a 9, se incrementa la siguiente parte en 1\n# si la parte anterior es 0, se incrementa en 1\n# major = int(version[0])\n# minor = int(version[1])\n# patch = int(version[2])\n# if patch < 9:",
         "detail": "publish_version",
         "documentation": {}
     },
@@ -181,16 +466,7 @@
         "kind": 5,
         "importPath": "publish_version",
         "description": "publish_version",
-        "peekOfCode": "new_version = f\"{major}.{minor}.{patch}\"\n# actualizar la version en el archivo pyproject.toml\nconfig_project[\"project\"][\"version\"] = new_version\nwith open(\"pyproject.toml\", \"w\") as file:\n    tomllib.dump(config_project, file)\nprint(f\"Version actual: {actual_version}\")\ncommand = \"python setup.py sdist bdist_wheel\"\nsubprocess.run(command, shell=True)\ncommand = \"twine upload dist/*\"\nsubprocess.run(command, shell=True)",
-        "detail": "publish_version",
-        "documentation": {}
-    },
-    {
-        "label": "config_project[\"project\"][\"version\"]",
-        "kind": 5,
-        "importPath": "publish_version",
-        "description": "publish_version",
-        "peekOfCode": "config_project[\"project\"][\"version\"] = new_version\nwith open(\"pyproject.toml\", \"w\") as file:\n    tomllib.dump(config_project, file)\nprint(f\"Version actual: {actual_version}\")\ncommand = \"python setup.py sdist bdist_wheel\"\nsubprocess.run(command, shell=True)\ncommand = \"twine upload dist/*\"\nsubprocess.run(command, shell=True)",
+        "peekOfCode": "new_version = version = actual_version.split(\".\")\n# hay 3 partes en la version: major, minor, patch\n# cada parte se incrementa en 1, cuando la parte anterior llega a 9, se incrementa la siguiente parte en 1\n# si la parte anterior es 0, se incrementa en 1\n# major = int(version[0])\n# minor = int(version[1])\n# patch = int(version[2])\n# if patch < 9:\n#     patch += 1\n# else:",
         "detail": "publish_version",
         "documentation": {}
     },
@@ -199,7 +475,7 @@
         "kind": 5,
         "importPath": "publish_version",
         "description": "publish_version",
-        "peekOfCode": "command = \"python setup.py sdist bdist_wheel\"\nsubprocess.run(command, shell=True)\ncommand = \"twine upload dist/*\"\nsubprocess.run(command, shell=True)",
+        "peekOfCode": "command = f\"git add .\"\nsubprocess.run(command, shell=True)\ncommand = f\"git commit -m 'publish version {new_version}'\"\nsubprocess.run(command, shell=True)\ncommand = f\"git push origin main\"\nsubprocess.run(command, shell=True)\ncommand = f\"git tag -a {new_version} -m 'publish version {new_version}'\"\nsubprocess.run(command, shell=True)\ncommand = f\"git push origin {new_version}\"\nsubprocess.run(command, shell=True)",
         "detail": "publish_version",
         "documentation": {}
     },
@@ -208,7 +484,43 @@
         "kind": 5,
         "importPath": "publish_version",
         "description": "publish_version",
-        "peekOfCode": "command = \"twine upload dist/*\"\nsubprocess.run(command, shell=True)",
+        "peekOfCode": "command = f\"git commit -m 'publish version {new_version}'\"\nsubprocess.run(command, shell=True)\ncommand = f\"git push origin main\"\nsubprocess.run(command, shell=True)\ncommand = f\"git tag -a {new_version} -m 'publish version {new_version}'\"\nsubprocess.run(command, shell=True)\ncommand = f\"git push origin {new_version}\"\nsubprocess.run(command, shell=True)\ncommand = f\"git push origin main\"\nsubprocess.run(command, shell=True)",
+        "detail": "publish_version",
+        "documentation": {}
+    },
+    {
+        "label": "command",
+        "kind": 5,
+        "importPath": "publish_version",
+        "description": "publish_version",
+        "peekOfCode": "command = f\"git push origin main\"\nsubprocess.run(command, shell=True)\ncommand = f\"git tag -a {new_version} -m 'publish version {new_version}'\"\nsubprocess.run(command, shell=True)\ncommand = f\"git push origin {new_version}\"\nsubprocess.run(command, shell=True)\ncommand = f\"git push origin main\"\nsubprocess.run(command, shell=True)\nprint(\"Proceso finalizado\")",
+        "detail": "publish_version",
+        "documentation": {}
+    },
+    {
+        "label": "command",
+        "kind": 5,
+        "importPath": "publish_version",
+        "description": "publish_version",
+        "peekOfCode": "command = f\"git tag -a {new_version} -m 'publish version {new_version}'\"\nsubprocess.run(command, shell=True)\ncommand = f\"git push origin {new_version}\"\nsubprocess.run(command, shell=True)\ncommand = f\"git push origin main\"\nsubprocess.run(command, shell=True)\nprint(\"Proceso finalizado\")",
+        "detail": "publish_version",
+        "documentation": {}
+    },
+    {
+        "label": "command",
+        "kind": 5,
+        "importPath": "publish_version",
+        "description": "publish_version",
+        "peekOfCode": "command = f\"git push origin {new_version}\"\nsubprocess.run(command, shell=True)\ncommand = f\"git push origin main\"\nsubprocess.run(command, shell=True)\nprint(\"Proceso finalizado\")",
+        "detail": "publish_version",
+        "documentation": {}
+    },
+    {
+        "label": "command",
+        "kind": 5,
+        "importPath": "publish_version",
+        "description": "publish_version",
+        "peekOfCode": "command = f\"git push origin main\"\nsubprocess.run(command, shell=True)\nprint(\"Proceso finalizado\")",
         "detail": "publish_version",
         "documentation": {}
     },

@@ -1,0 +1,27 @@
+version: "3.8"
+
+# for to use the GPU of the host and restrict the use of the CPU and memory
+x-resources: &resources_gpu
+  deploy:
+    resources:
+      reservations:
+        devices:
+          - driver: nvidia # use the GPU of the host
+            device_ids: ["0"] # use the GPU 0
+            capabilities: [gpu] # use the GPU
+
+services:
+  docker_in_docker:
+    <<: *resources_gpu
+    build: 
+      context: ./
+      dockerfile: Dockerfile
+    image: wisrovi/docker_in_docker:v1.0
+    volumes:
+      - ./:/app
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    restart: unless-stopped
+    privileged: true
+    stdin_open: true
+    tty: true
+    command: tail -f /dev/null

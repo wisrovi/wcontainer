@@ -1,23 +1,3 @@
-# Wcontainer
-
-**Wcontainer** is a library for specific docker container operations. The library offers a number of modules that make using docker containers easier and simpler.
-
-# Description
-
-Wcontainer is a library for specific docker container operations. The library offers a number of modules that make using docker containers easier and simpler.
-
-## Installation
-
-To install the library, use `pip`:
-
-```bash
-pip install wcontainer
-```
-
-# Description
-
-The **wcontainer** library offers a number of modules that make using docker containers easier and simpler. The library is designed to be used in conjunction with the **docker** library, which is the official Python client for the Docker Engine API.
-
 # Examples
 
 This directory contains a collection of examples that demonstrate the usage of various modules and functionalities in this project. Each subfolder corresponds to a specific module and includes example scripts to help you understand how to use that module.
@@ -60,11 +40,10 @@ examples/
 ### 1-basicos
 
 #### Description
-
 This module demonstrates specific functionalities.
 
-- **1_list_container.py**: Example demonstrating functionality.
 
+- **1_list_container.py**: Example demonstrating functionality.
 ```python
 # ✅ 1.1 Listar contenedores en ejecución
 
@@ -78,10 +57,10 @@ print(wc.list_containers())
 
 # List all containers (including stopped ones)
 print(wc.list_containers(all_containers=True))
-```
+  ```
+
 
 - **2_start_new_container.py**: Example demonstrating functionality.
-
 ```python
 # ✅ 1.2 Iniciar un contenedor con parámetros básicos
 
@@ -92,10 +71,10 @@ wc = Wcontainer(verbose=True)
 
 # Start an Nginx container exposing port 8080
 print(wc.start_container("nginx", "my_nginx", ports={"80/tcp": 8080}))
-```
+  ```
+
 
 - **3_new_resources.py**: Example demonstrating functionality.
-
 ```python
 # ✅ 1.3 Ajustar recursos de un contenedor en tiempo real
 
@@ -107,16 +86,17 @@ wc = Wcontainer(verbose=True)
 
 # Limit a running container to 2 CPU cores and 1GB RAM
 print(wc.adjust_container_resources("my_nginx", cpu_limit=2.0, memory_limit="1g"))
-```
+  ```
+
+
 
 ### 2-intermedios
 
 #### Description
-
 This module demonstrates specific functionalities.
 
-- **1_buscar_vulnerabilidades.py**: Example demonstrating functionality.
 
+- **1_buscar_vulnerabilidades.py**: Example demonstrating functionality.
 ```python
 # ✅ 2.2 Escanear una imagen Docker en busca de vulnerabilidades con Trivy
 
@@ -128,10 +108,10 @@ wc = Wcontainer(verbose=True)
 
 # Scan the latest Nginx image for security vulnerabilities
 print(wc.scan_image_with_trivy("nginx"))
-```
+  ```
+
 
 - **2_read_metrics.py**: Example demonstrating functionality.
-
 ```python
 # ✅ 2.1 Obtener métricas de uso de CPU, RAM y GPU
 
@@ -143,10 +123,10 @@ wc = Wcontainer(verbose=True)
 
 # Get system-wide CPU, RAM, and GPU usage
 print(wc.get_resource_metrics())
-```
+  ```
+
 
 - **3_informe de errores.py**: Example demonstrating functionality.
-
 ```python
 # ✅ 2.3 Generar un informe de errores de un contenedor
 
@@ -158,16 +138,17 @@ wc = Wcontainer(verbose=True)
 
 # Analyze logs and generate a JSON error report for the container
 print(wc.generate_error_report("my_nginx", output_file="nginx_errors.json"))
-```
+  ```
+
+
 
 ### 3-avanzados
 
 #### Description
-
 This module demonstrates specific functionalities.
 
-- **1_ajuste_dinamico_recursos.py**: Example demonstrating functionality.
 
+- **1_ajuste_dinamico_recursos.py**: Example demonstrating functionality.
 ```python
 # ✅  3.1 Autoajuste dinámico de recursos
 
@@ -190,10 +171,10 @@ for _ in range(5):
 
 
 # 🔹 Explicación: Cada 10 segundos, el script cambia la cantidad de CPU y RAM asignada al contenedor.
-```
+  ```
+
 
 - **2_escalar_contenedores_segun_uso_recursos.py**: Example demonstrating functionality.
-
 ```python
 # ✅  3.2 Detectar uso alto de recursos y escalar contenedores
 
@@ -210,10 +191,10 @@ if float(resource_metrics["cpu_usage"].strip("%")) > 80:
     print(wc.start_container("nginx", "nginx_replica"))
 
 # 🔹 Explicación: Si el uso de CPU del sistema supera el 80%, lanza una nueva instancia del contenedor para distribuir la carga.
-```
+  ```
+
 
 - **3_escalar_antes_desplegar.py**: Example demonstrating functionality.
-
 ```python
 # ✅  3.3 Escanear imágenes antes de desplegar en producción
 
@@ -238,10 +219,10 @@ else:
     )
 
 # 🔹 Explicación: Antes de desplegar una imagen, el sistema revisa vulnerabilidades con Trivy. Si se encuentran fallos críticos, se cancela el despliegue.
-```
+  ```
+
 
 - **4_autonamizar_generacion_informe_errores.py**: Example demonstrating functionality.
-
 ```python
 # ✅  3.4 Automatizar la generación de informes de errores
 
@@ -258,10 +239,10 @@ for container in containers:
 
 
 # 🔹 Explicación: Revisa los logs de varios contenedores y genera informes de errores individuales en formato JSON.
-```
+  ```
+
 
 - **5_usar_ia_detectar_fallos_para_reinicio_automatico.py**: Example demonstrating functionality.
-
 ```python
 # ✅  3.5 Detectar fallos en contenedores con IA y reiniciarlos automáticamente
 
@@ -283,16 +264,17 @@ for container in containers:
 
 
 # 🔹 Explicación: Usa la predicción de fallos con IA y reinicia automáticamente los contenedores con alta probabilidad de error.
-```
+  ```
+
+
 
 ### 4-monitoreo_RT
 
 #### Description
-
 This module demonstrates specific functionalities.
 
-- **monitoreo_tiempo_real.py**: Example demonstrating functionality.
 
+- **monitoreo_tiempo_real.py**: Example demonstrating functionality.
 ```python
 # ✅  4️. Ejemplo Completo: Monitoreo en Tiempo Real
 
@@ -337,10 +319,6 @@ while True:
 # ✅ Analiza los logs de errores de todos los contenedores
 # ✅ Ajusta dinámicamente la asignación de recursos
 # ✅ Detecta fallos con IA y reinicia contenedores automáticamente
-```
+  ```
 
-# License
 
-MIT
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
