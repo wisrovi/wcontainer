@@ -359,7 +359,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 * **William Steve Rodriguez Villamizar (Wisrovi)**
 * **Cargo:** Principal AI Engineer & Applied AI Solutions Architect | Scientific Researcher
-* 📧 **Email:** [wisrovi.rodriguez@gmail.com](mailto:wisrovi.rodriguez@gmail.com) / [wisrovi@wisrovi.dev](mailto:wisrovi@wisrovi.dev)
+* 📧 **Email:** [wisrovi.rodriguez@gmail.com](mailto:wisrovi.rodriguez@gmail.com)
 * 🌐 **Portal Oficial:** [wisrovi.dev](https://wisrovi.dev)
 * 💼 **LinkedIn:** [wisrovi-rodriguez](https://www.linkedin.com/in/wisrovi-rodriguez/)
 * 🆔 **ORCID:** [0009-0005-0710-1861](https://orcid.org/0009-0005-0710-1861)
